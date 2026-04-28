@@ -4,6 +4,31 @@ A React Native + TypeScript app for tracking live prices of gold, silver, platin
 
 The home screen acts as the landing page with gradient glass-style tiles, cached sample data for instant rendering, and user-triggered live refreshes. The detail screen adds quote metadata plus optional hourly history when you choose to load it.
 
+## Screenshots
+
+<details open>
+<summary><strong>App preview</strong></summary>
+<br />
+
+<table>
+  <tr>
+    <td><img src="assets/Simulator%20Screenshot%20-%20iPhone%2017%20Pro%20-%202026-04-28%20at%2022.59.43.png" width="240" alt="Screenshot 1" /></td>
+    <td><img src="assets/Simulator%20Screenshot%20-%20iPhone%2017%20Pro%20-%202026-04-28%20at%2022.59.53.png" width="240" alt="Screenshot 2" /></td>
+    <td><img src="assets/Simulator%20Screenshot%20-%20iPhone%2017%20Pro%20-%202026-04-28%20at%2023.00.00.png" width="240" alt="Screenshot 3" /></td>
+  </tr>
+  <tr>
+    <td><img src="assets/Simulator%20Screenshot%20-%20iPhone%2017%20Pro%20-%202026-04-28%20at%2023.00.11.png" width="240" alt="Screenshot 4" /></td>
+    <td><img src="assets/Simulator%20Screenshot%20-%20iPhone%2017%20Pro%20-%202026-04-28%20at%2023.00.29.png" width="240" alt="Screenshot 5" /></td>
+    <td><img src="assets/Simulator%20Screenshot%20-%20iPhone%2017%20Pro%20-%202026-04-28%20at%2023.00.37.png" width="240" alt="Screenshot 6" /></td>
+  </tr>
+  <tr>
+    <td><img src="assets/Simulator%20Screenshot%20-%20iPhone%2017%20Pro%20-%202026-04-28%20at%2023.00.42.png" width="240" alt="Screenshot 7" /></td>
+    <td><img src="assets/Simulator%20Screenshot%20-%20iPhone%2017%20Pro%20-%202026-04-28%20at%2023.00.52.png" width="240" alt="Screenshot 8" /></td>
+    <td></td>
+  </tr>
+</table>
+</details>
+
 ## Stack
 
 - React Native 0.85
@@ -17,9 +42,9 @@ The home screen acts as the landing page with gradient glass-style tiles, cached
 
 ## Environment setup
 
-```sh
-env file is in env.zip at root directory. Extract it and create a .env file copy paste api key and baseurl into it.
-```
+### env notes
+
+- env file is in env.zip at root directory. Extract it and create a .env file copy paste api key and baseurl into it.
 
 1. Copy `.env.example` to `.env`
 2. Add your MetalpriceAPI key
@@ -112,3 +137,4 @@ npm test
 This repo includes a prebuilt Android APK inside the `artifact/` folder:
 
 - `artifact/MetalPriceTracker.apk`
+
